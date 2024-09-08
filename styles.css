@@ -1,0 +1,22 @@
+.board{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border:1px solid black;
+    display: flex;
+    justify-content:flex-start;
+    align-items: self-start;
+    flex-wrap: wrap;
+}
+.square{
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 2em;
+}
+.hover{
+    cursor: pointer;
+}
